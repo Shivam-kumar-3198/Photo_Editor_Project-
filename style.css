@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(71, 71, 71, 0.998);
+}
+
+nav{
+   text-align: center;
+   color: white;
+   font-size: 4vw;
+   box-shadow: 5px 3px rgba(0, 0, 0, 0.641);
+}
+.uploadimage{
+    height: 70vh;
+    width: 95vw;
+    background-color: rgb(42, 44, 44);
+    margin: 2%; 
+}
+.icon{
+    text-align: center;
+    color: white;
+    font-size: 3vw; 
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5vw;
+    color: aliceblue;
+    margin: 2%;
+}
+img{
+    height: 30vh;
+    width: 30vw;
+    cursor: pointer;
+    margin: 4% 4% -8% 0%;
+    padding: 0% 4% -4% -4%;
+   
+}
+#input-file{
+    display: none;
+}
+#imageChange{
+    height: 60vh;
+    width: 40vw;
+    margin: 0.5%;
+}
